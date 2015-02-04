@@ -14,7 +14,7 @@
   BSD license, all text above must be included in any redistribution
  ****************************************************/
 
-#include "Adafruit_MPR121.h"
+#include "MPR121.h"
 
 Adafruit_MPR121::Adafruit_MPR121() {
 }
