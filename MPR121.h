@@ -29,7 +29,7 @@
 #define MPR121_FILTDATA_0L      0x04
 #define MPR121_FILTDATA_0H      0x05
 #define MPR121_BASELINE_0       0x1E
-#define MPR121_MHDR             0x2B
+#define MPR121_MHDR             0x2B  //  baseline filt ctl reg
 #define MPR121_NHDR             0x2C
 #define MPR121_NCLR             0x2D
 #define MPR121_FDLR             0x2E
