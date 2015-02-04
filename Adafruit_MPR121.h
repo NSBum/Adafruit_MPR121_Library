@@ -62,11 +62,11 @@
 #define MPR121_GPIOTOGGLE       0x7A
 #define MPR121_SOFTRESET        0x80
 
-//.. thru to 0x1C/0x1D
-class Adafruit_MPR121 {
+
+class MPR121 {
 public:
     // Hardware I2C
-    Adafruit_MPR121(void);
+    MPR121(void);
 
     boolean begin(uint8_t i2caddr = MPR121_I2CADDR_DEFAULT);
 
