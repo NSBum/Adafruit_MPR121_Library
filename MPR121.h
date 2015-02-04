@@ -68,7 +68,7 @@ public:
     // Hardware I2C
     MPR121(void);
 
-    boolean begin(uint8_t i2caddr = MPR121_I2CADDR_DEFAULT, boolean debug);
+    boolean begin(uint8_t i2caddr = MPR121_I2CADDR_DEFAULT, boolean debug = false);
 
     uint16_t filteredData(uint8_t t);
     uint16_t  baselineData(uint8_t t);
